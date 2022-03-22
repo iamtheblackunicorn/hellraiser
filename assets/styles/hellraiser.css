@@ -1,0 +1,59 @@
+/*
+HELLRAISER by Alexander Abraham, "The Black Unicorn".
+Licensed under the MIT license.
+*/
+@font-face { font-family: 'Hellraiser'; src: url("../fonts/Hellraiser.ttf") format("truetype"); }
+
+/*
+HELLRAISER by Alexander Abraham, "The Black Unicorn".
+Licensed under the MIT license.
+*/
+/*
+HELLRAISER by Alexander Abraham, "The Black Unicorn".
+Licensed under the MIT license.
+*/
+/*
+HELLRAISER by Alexander Abraham, "The Black Unicorn".
+Licensed under the MIT license.
+*/
+html, body { top: 0; left: 0; right: 0; bottom: 0; width: 100vw; height: 100vh; background-color: #089E9C; box-sizing: border-box; margin: 0; padding: 0; }
+
+h1 { font-family: "Hellraiser"; font-size: 40px; color: #C1291F; font-weight: lighter; background-color: #000000; top: 0; left: 0; right: 0; text-align: left; padding: 30px; margin: 0; transition-duration: 0.6s; }
+
+h1:hover { color: #DF0045; }
+
+div.content { padding: 20px; margin: 0 auto; display: block; background-color: #C1291F; border: 12px solid #000000; width: 70vw; }
+
+h2 { font-size: 30px; font-family: "Hellraiser"; color: #000000; text-align: left; padding: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 10px; }
+
+h3 { font-size: 29px; font-family: "Hellraiser"; color: #000000; text-align: left; padding: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 10px; }
+
+h4 { font-size: 28px; font-family: "Hellraiser"; color: #000000; text-align: left; padding: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 10px; }
+
+h5 { font-size: 27px; font-family: "Hellraiser"; color: #000000; text-align: left; padding: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 10px; }
+
+p { font-size: 25px; font-family: "Hellraiser"; color: #000000; text-align: left; padding: 0; margin-left: 0; margin-right: 0; margin-top: 10px; margin-bottom: 10px; }
+
+a { font-size: 25px; font-family: "Hellraiser"; color: #000000; transition-duration: 0.6s; }
+
+a:hover { color: #DF0045; }
+
+hr { background-color: #000000; width: 100%; margin: 0; padding: 0; border: none; height: 5px; }
+
+div.nav { top: 0; left: 0; right: 0; bottom: 0; width: 0vw; height: 0vh; background-color: #000000; box-sizing: border-box; margin: 0; padding: 0; transition-duration: 0.6s; text-align: center; overflow-y: hidden; z-index: 5; position: fixed; }
+
+ul.nav { margin: 0 auto; display: block; padding-left: 0; padding-right: 0; padding-bottom: 0; padding-top: 30vh; list-style: none; text-align: center; }
+
+li.nav { margin: 0; padding-top: 20px; padding-bottom: 20px; padding-left: 0px; padding-right: 0px; text-align: center; }
+
+a.nav { font-size: 25px; text-align: center; font-family: "Hellraiser"; color: #C1291F; transition-duration: 0.6s; text-decoration: none; }
+
+a.nav:hover { color: #DF0045; }
+
+/*
+HELLRAISER by Alexander Abraham, "The Black Unicorn".
+Licensed under the MIT license.
+*/
+@media screen and (max-width: 800px) { h1 { text-align: center; font-size: 30px; } div.content { width: 80%; } h2 { font-size: 25px; } h3 { font-size: 24px; } h4 { font-size: 23px; } h5 { font-size: 22px; } p { font-size: 20px; } a { font-size: 20px; } }
+
+/*# sourceMappingURL=hellraiser.css.map */
