@@ -1,0 +1,13 @@
+description: "A Jekyll theme that raises hell."
+title: "Hellraiser"
+viewText: "Read Me!"
+url: ""
+baseurl: "/hellraiser"
+plugins:
+  - sassc
+  - webrick
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-remote-theme

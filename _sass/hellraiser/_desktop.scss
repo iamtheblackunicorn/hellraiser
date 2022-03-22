@@ -1,0 +1,110 @@
+/*
+HELLRAISER by Alexander Abraham, "The Black Unicorn".
+Licensed under the MIT license.
+*/
+@import "variables";
+html,body {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: $bgColor;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-family: $stdFont;
+  font-size: 40px;
+  color: $mainColor;
+  font-weight: lighter;
+  background-color: $accentColor;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: left;
+  padding: 30px;
+  margin: 0;
+}
+div.content {
+  padding: 20px;
+  margin: 0 auto;
+  display: block;
+  background-color: $mainColor;
+  border: 12px solid $accentColor;
+  width: 70vw;
+}
+h2 {
+  font-size: 30px;
+  font-family: $stdFont;
+  color: $accentColor;
+  text-align: left;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+h3 {
+  font-size: 29px;
+  font-family: $stdFont;
+  color: $accentColor;
+  text-align: left;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+h4 {
+  font-size: 28px;
+  font-family: $stdFont;
+  color: $accentColor;
+  text-align: left;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+h5 {
+  font-size: 27px;
+  font-family: $stdFont;
+  color: $accentColor;
+  text-align: left;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 25px;
+  font-family: $stdFont;
+  color: $accentColor;
+  text-align: left;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+a {
+  font-size: 25px;
+  font-family: $stdFont;
+  color: $accentColor;
+  transition-duration: 0.6s;
+}
+a:hover {
+  color: $hoverColor;
+}
+hr {
+  background-color: $accentColor;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 5px;
+}
