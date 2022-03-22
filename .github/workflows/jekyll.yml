@@ -17,3 +17,8 @@ jobs:
         run: bundle install
       - name: Run tests
         run: bundle exec jekyll build
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        with:
+          branch: gh-pages
+          folder: _site
