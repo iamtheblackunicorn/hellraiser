@@ -68,6 +68,7 @@ gem "jekyll-theme-hellraiser", git: "https://github.com/iamtheblackunicorn/hellr
 - `title`: The title of your site.
 - `viewText`: The link text for reading posts.
 - `baseurl`: Leave this blank for your site if you are hosting it at `yourusername.github.io`. If you're using this theme in a project page, set this to `/your_project_name`.
+- `closeNavText`: The link text to close your navigation drawer.
 
 Have a look at this theme's [`_config.yml`](_config.yml) for guidance.
 
@@ -77,6 +78,19 @@ Have a look at this theme's [`_config.yml`](_config.yml) for guidance.
 - `title`: The title of your post.
 
 Have a look at this theme's [`sample post`](2022-03-22-Welcome-to-Jekyll.markdown) for guidance.
+
+### Data variables
+
+This theme's navigation links and menu are controlled by a file called `nav.yml`, located here: `_data`.
+A sample entry for a navigation item in this file could look something like this:
+
+```YAML
+- name: "HOME"
+  url: "/"
+  urlIsAbsolute: false
+```
+
+If your link URL links to an external page, the `urlIsAbsolute` should be set to `true`.
 
 ### Available layouts
 

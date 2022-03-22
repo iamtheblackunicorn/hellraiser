@@ -2,12 +2,14 @@
 <html>
  {% include head.html %}
  <body>
-  <h1>{{ site.title }}</h1>
+  {% include nav.html %}
+  {% include h1.html %}
   {% include breaker.html %}
   <div class="content">
    <h2>{{ page.title }}</h2>
    {{ content }}
   </div>
  {% include breaker.html %}
+ {% include script.html %}
  </body>
 </html>

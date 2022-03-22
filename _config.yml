@@ -1,6 +1,7 @@
 description: "A Jekyll theme that raises hell."
 title: "Hellraiser"
 viewText: "Read Me!"
+closeNavText: "CLOSE"
 url: ""
 baseurl: "/hellraiser"
 plugins:

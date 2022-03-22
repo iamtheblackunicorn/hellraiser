@@ -2,7 +2,8 @@
 <html>
  {% include head.html %}
  <body>
-  <h1>{{ site.title }}</h1>
+  {% include nav.html %}
+  {% include h1.html %}
   {% include breaker.html %}
   {% for post in site.posts %}
    <div class="content">
@@ -13,5 +14,6 @@
    </div>
    {% include breaker.html %}
   {% endfor %}
+  {% include script.html %}
  </body>
 </html>

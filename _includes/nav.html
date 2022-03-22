@@ -1,0 +1,12 @@
+<div class="nav" id="nav">
+ <ul class="nav">
+ {% for item in site.data.nav %}
+  {% if item.urlIsAbsolute %}
+  <li class="nav"><a class="nav" href="{{ item.url }}">{{ item.name }}</a></li>
+  {% else %}
+  <li class="nav"><a class="nav" href="{{ item.url | prepend: site.baseurl }}">{{ item.name }}</a></li>
+  {% endif %}
+ {% endfor %}
+ <li class="nav"><a class="nav" href="javascript:void(0);" onclick="closeNav();">{{ site.closeNavText }}</a></li>
+ </ul>
+</div>
