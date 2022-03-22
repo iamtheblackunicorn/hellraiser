@@ -1,3 +1,6 @@
 - name: "HOME"
   url: "/"
   urlIsAbsolute: false
+- name: "USE IT"
+  url: "https://github.com/iamtheblackunicorn/hellraiser"
+  urlIsAbsolute: true
