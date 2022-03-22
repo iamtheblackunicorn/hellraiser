@@ -1,4 +1,4 @@
 ---
-title: Hell raised.
+title: Hellraiser
 layout: blog
 ---
